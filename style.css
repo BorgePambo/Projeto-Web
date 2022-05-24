@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 5, 30, 0.7), rgba(4, 5, 30, 0.7)), url(imagens/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-links{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links .logo{
+    color: #fff;cursor: pointer;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav-links ul li a:hover{
+    color: #05f721;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #05f721;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+
+.objetivo{
+    width: 85%;
+    margin: auto;
+    
+}
+
+.objetivo h3{
+    margin: 10px 15px;
+}
+
+.objetivo .content p{
+    width: 600px;
+    text-align: justify;
+    margin: 0 15px;
+    font-size: 13px;
+
+}
+.objetivo .content{
+    display: flex;
+
+}
+
+
+
+.text-box{
+    color: #fff;
+    text-align: center;
+    width:  60%;
+    margin: 150px auto;
+    
+}
+
+.text-box h1{
+    color: #fff;
+    font-size: 50px;
+    border: 1px solid #05f721;
+   
+}
+
+.text-box p{
+    font-size: 12px;
+    margin-top: 9px;
+    line-height: 25px;
+   
+}
+
+hr{
+    width: 30%;
+    margin: 5px auto;
+}
+
+.descricao{
+    width: 85%;
+    margin: 15px auto;
+    text-align: justify;
+}
+
+.descricao h3{
+    margin-left: 13px;
+}
+
+.descricao p{
+   font-size: 13px;
+}
+
+#imagem{
+    float: left;
+    margin: 2px 15px;
+    width: 330px;
+    height: 200px;
+}
+
+
+.content-m-v{
+    width: 85%;
+    margin: auto;
+   
+}
+
+.content-m-v .content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.content-m-v .content > div{
+    margin: 7px  17px;
+    width: 47%;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.content-m-v .content p{
+    text-indent: 0px;
+}
+
+
+.content-3{
+    width: 85%;
+    margin: auto;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.content-3 .table-1,  td{
+    padding: 0 6px;
+    font-size: 13px;
+    height: 100px;
+    border: 1px solid #123;
+    border-collapse: collapse;
+}
+
+.table, th{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+.cronograma{
+    width: 85%;
+    margin: auto;
+}
+
+.cronograma table{
+    width: 100%;
+    border: 1px solid #123;
+    border-collapse: collapse;
+}
+
+.cronograma table th {
+    text-align: center;
+}
+.cronograma table td{
+    text-align: center ;
+    height: 30px;
+}
+
+.footer{
+    background-image: linear-gradient(rgba(4, 5, 30, 0.7), rgba(4, 5, 30, 0.7)), url(imagens/banner.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-content{
+    width: 85%;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 10vh 0;
+    color: #fff;
+    display: flex;
+}
+
+.footer-content p{
+    line-height: 20px;
+}
+
+.footer-content .referencia{
+    width: 45%;
+    margin-right: 10%;
+}
+
+.copy{
+    padding: 10px 0;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
